@@ -1,0 +1,11 @@
+name: 'composer-normalize-action'
+description: 'GitHub Action for composer-normalize'
+author: 'bvlinsky'
+
+branding:
+  icon: 'align-justify'
+  color: 'orange'
+
+runs:
+  using: 'docker'
+  image: 'docker://bvlinsky/composer-normalize-action'
